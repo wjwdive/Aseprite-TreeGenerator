@@ -1,0 +1,19 @@
+{
+  "name": "pixel-tree-generator",
+  "displayName": "Pixel Tree Generator",
+  "description": "Generate various 2D pixel art trees based on templates.",
+  "version": "1.0.0",
+  "author": { "name": "wjwdive", "email": "wjwdive@163.com" },
+  "contributors": [],
+  "publisher": "wjwdive",
+  "license": "CC-BY-4.0",
+  "categories": [ "Scripts" ],
+  "main": "./tree_generator.lua",
+  "commands": [
+    {
+      "id": "generate_tree",
+      "title": "Generate Pixel Tree",
+      "group": "file_new"
+    }
+  ]
+}
